@@ -38,9 +38,9 @@ $tsc-watch
 lite-server
 ```
 
-5. Click F12 to open browser development tool, you will find 'hello world' there if everything goes successfully
+7. Click F12 to open browser development tool, you will find 'hello world' there if everything goes successfully
 
-6. Now you can go to ./src/demo.ts to add ES/TS file and see the compiling result in ./out/demo.js. If your program has output result, go to [localhost site](http://localhost:3000/) and you will see it in browser console.
+8. Now you can go to ./src/demo.ts to add ES/TS file and see the compiling result in ./out/demo.js. If your program has output result, go to [localhost site](http://localhost:3000/) and you will see it in browser console.
 
 ## Authors
 
