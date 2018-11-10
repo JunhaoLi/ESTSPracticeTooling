@@ -1,0 +1,24 @@
+{
+  "name": "eststooling",
+  "version": "1.0.0",
+  "description": "A playground for ES and TS practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunhaoLi/ESTSPracticeTooling.git"
+  },
+  "keywords": [
+    "ES",
+    "TS",
+    "Practice"
+  ],
+  "author": "Hans Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JunhaoLi/ESTSPracticeTooling/issues"
+  },
+  "homepage": "https://github.com/JunhaoLi/ESTSPracticeTooling#readme"
+}
