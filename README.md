@@ -26,21 +26,21 @@ npm install -g lite-server
 
 3. Clone or download this repository to your local (click [here](https://help.github.com/articles/cloning-a-repository/) to see how)
 
-4. Go to your local folder in your console.
+4. Go to your local folder in your console and install npm packages
+```
+npm install
+```
 
-5. If you are using VS Code, press Ctrl + Shift + B to start the typescript watcher. Otherwise type command below:
-```
-$tsc-watch
-```
+5. Use Ctrl(Command on mac) + Shift + B to build the solution
 
 6. Start local lite server, it will open a browser window automatically.
 ```
 lite-server
 ```
 
-7. Click F12 to open browser development tool, you will find 'hello world' there if everything goes successfully
+7. Click F12 to open browser development tool, you will find 'welcome hans li' there if everything goes successfully
 
-8. Now you can go to ./src/demo.ts to add ES/TS file and see the compiling result in ./out/demo.js. If your program has output result, go to [localhost site](http://localhost:3000/) and you will see it in browser console.
+8. Now you can go to ./src/index.ts to add more code or create new file under ./src folder. Everytime you made change, please run step 5 and refresh browser to get refreshed results. (I will improve this part to add watcher task here)
 
 ## Authors
 

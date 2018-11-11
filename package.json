@@ -1,24 +1,31 @@
 {
-  "name": "eststooling",
+  "name": "webpack-typescript-babel",
   "version": "1.0.0",
-  "description": "A playground for ES and TS practice",
-  "main": "index.js",
+  "description": "A sample setup using Webpack and Babel to build TypeScript code, and using TypeScript for type-checking.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "webpack --mode=production",
+    "build": "npm run build:types && npm run build:js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JunhaoLi/ESTSPracticeTooling.git"
+  "author": {
+    "name": "Alexander T.",
+    "email": "alexander.tarasyuk@outlook.com"
   },
-  "keywords": [
-    "ES",
-    "TS",
-    "Practice"
-  ],
-  "author": "Hans Li",
+  "main": "dist/bundle.js",
+  "types": "dist/types/index.d.ts",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JunhaoLi/ESTSPracticeTooling/issues"
-  },
-  "homepage": "https://github.com/JunhaoLi/ESTSPracticeTooling#readme"
+  "devDependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/core": "7.1.2",
+    "@babel/plugin-proposal-class-properties": "7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-typescript": "7.1.0",
+    "babel-loader": "8.0.4",
+    "typescript": "3.1.5",
+    "webpack": "4.23.1",
+    "webpack-cli": "3.1.2"
+  }
 }
