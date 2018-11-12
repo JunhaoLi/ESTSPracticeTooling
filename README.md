@@ -31,7 +31,10 @@ npm install -g lite-server
 npm install
 ```
 
-5. Use Ctrl(Command on mac) + Shift + B to build the solution
+5. Build project in console, it will generate bundle.js under ./dist folder
+```
+npm run build
+```
 
 6. Start local lite server, it will open a browser window automatically.
 ```
@@ -51,3 +54,4 @@ lite-server
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+* A nice playground [tool](https://github.com/a-tarasyuk/webpack-typescript-babel) based on babel and webpack by Alexander T
