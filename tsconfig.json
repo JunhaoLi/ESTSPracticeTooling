@@ -3,15 +3,16 @@
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
+    "noImplicitReturns": false,
     "esModuleInterop": true,
     "noUnusedLocals": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "declarationDir": "dist/types",
     "declaration": true,
-    "target": "es2015",
-    "module": "es2015",
-    "strict": true
+    "target": "es5",
+    "module": "es6",
+    "strict": true,
+    "sourceMap": true
   },
   "include": [
     "src/**/*"
