@@ -1,5 +1,5 @@
 {
-  "name": "A playground tool for ES and TS practice",
+  "name": "playground-es6-typescript-webpack-babel",
   "version": "0.0.1",
   "description": "his is a practice tool for ES6 and Typescript.",
   "scripts": {
