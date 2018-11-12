@@ -1,4 +1,3 @@
-let fname = 'hans';
-let lname = 'li';
-
-export {fname, lname};
+export function helloworld() {
+    console.log('hello world, below is your output:');
+}

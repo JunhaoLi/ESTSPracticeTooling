@@ -1,3 +1,5 @@
-import {fname, lname} from './module2';
+import {helloworld} from './module2';
 
-console.log(`welcome, ${fname} ${lname}`);
+helloworld();
+
+
